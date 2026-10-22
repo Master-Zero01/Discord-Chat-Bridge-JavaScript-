@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "bridges": [
+    {
+      "sourceChannelId": "1170896341896015883",
+      "targetChannelId": "1318009900420562997",
+      "createdBy": "683828846541406243",
+      "createdAt": "2026-10-22T02:54:00.391Z"
+    }
+  ]
+}

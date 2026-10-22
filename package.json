@@ -1,0 +1,14 @@
+{
+  "name": "discord-chat-bridge-javascript",
+  "version": "1.0.0",
+  "description": "A small, configurable Discord message relay bot based on Master-Zero01's Discord-Chat-Bridge-JavaScript repository.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js && node --check src/bridge-store.js && node --check src/relay-manager.js && node --check src/message-format.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=22.12.0" },
+  "dependencies": { "discord.js": "^14.27.0", "dotenv": "^16.6.1" }
+}
